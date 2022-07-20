@@ -52,8 +52,7 @@ main {
 }
 
 h1 {
-    margin-bottom: 0.5rem;
-    display: inline;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -62,4 +61,17 @@ h3 {
 
 p {
     margin-bottom: 1rem;
+}
+
+div div input[type="checkbox"] {
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+div:has(input[type="checkbox"]:checked) {
+    background: var(--navbg);
+}
+
+label {
+    background-color: transparent;
 }
