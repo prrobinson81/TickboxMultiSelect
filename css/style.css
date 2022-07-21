@@ -69,7 +69,15 @@ div div input[type="checkbox"] {
 }
 
 div:has(input[type="checkbox"]:checked) {
-    background: var(--navbg);
+    background-color: var(--navbg);
+    background-color: Highlight;
+    color: HighlightText;
+
+}
+
+input[type="checkbox"]:checked {
+    background-color: Highlight;
+    color: HighlightText;
 }
 
 label {
